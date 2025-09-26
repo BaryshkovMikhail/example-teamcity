@@ -32,8 +32,9 @@ public class WelcomerTest {
 	}
 	@Test
 	public void testHunterReplyContainsWordHunter() {
-	    Welcomer welcomer = new Welcomer();
-	    String reply = welcomer.getHunterReply();
- 	   assertTrue(reply.toLowerCase().contains("hunter"));
+  	  Welcomer welcomer = new Welcomer();
+  	  String reply = welcomer.getHunterReply();
+  		  assertTrue(reply.toLowerCase().contains("hunter"));
 	}
 }
+
